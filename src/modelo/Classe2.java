@@ -15,14 +15,17 @@ public class Classe2 {
 	}
 	
 	public int funcionalidade1() {
+		System.out.println("Executando a funcionalidade1 da classe 2.");
 		return 10;
 	}
 	
 	public boolean funcionalidade2() {
+		System.out.println("Executando a funcionalidade2 da classe 2.");
 		return true;
 	}
 	
 	public char funcionalidade3() {
+		System.out.println("Executando a funcionalidade3 da classe 2.");
 		return 'a';
 	}
 }

@@ -15,14 +15,16 @@ public class Classe1 {
 	}
 	
 	public String funcionalidade1() {
+		System.out.println("Executando a funcionalidade1 da classe 1.");
 		return "string";
 	}
 	
 	public Object funcionalidade2() {
+		System.out.println("Executando a funcionalidade2 da classe 1.");
 		return new Object();
 	}
 	
 	public void funcionalidade3() {
-		System.out.println("Print executando a funcionalidade3.");
+		System.out.println("Executando a funcionalidade3 da classe 1.");
 	}
 }
