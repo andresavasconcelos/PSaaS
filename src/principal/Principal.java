@@ -16,6 +16,8 @@ public class Principal {
 		FaseProjeto.printFase(requisitos);
 		
 		// fase de construcao
+		ArrayList<String> funcoes = FaseConstrucao.montaListaFuncoes(1, 6);
+		FaseConstrucao.printFase(funcoes);
 
 		
 		// fase de testes
