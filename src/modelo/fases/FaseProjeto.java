@@ -28,6 +28,6 @@ public class FaseProjeto {
 		printAndWait("Gerando diagrama UML de classes...", 1000);
 		System.out.println("Diagrama UML gerado com sucesso.\n");
 		
-		System.out.println("Fim da fase de requisitos.\n\n\n------------------------------------------------\n\n");
+		System.out.println("Fim da fase de projeto.\n\n\n------------------------------------------------\n\n");
 	}
 }
