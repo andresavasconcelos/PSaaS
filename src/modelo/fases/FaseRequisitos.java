@@ -39,6 +39,7 @@ public class FaseRequisitos {
 		
 		// especificacao
 		printAndWait("Definindo especificacoes dos requisitos...", 500);
+		printAndWait("Gerando modelo de regras de negocio", 500);
 		printAndWait("Gerando modelo UML abstrato do sistema...", 1000);
 		printAndWait("Gerando especificacao formal do sistema...", 1000);
 		System.out.println("Modelos e especificacoes geradas com sucesso.\n");
