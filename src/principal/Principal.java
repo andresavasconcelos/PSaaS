@@ -2,6 +2,7 @@ package principal;
 
 import java.util.ArrayList;
 
+import modelo.fases.FaseConstrucao;
 import modelo.fases.FaseProjeto;
 import modelo.fases.FaseRequisitos;
 
