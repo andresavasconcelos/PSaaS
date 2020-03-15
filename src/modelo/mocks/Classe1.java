@@ -11,19 +11,15 @@ public class Classe1 {
 		this.requisitosAssociados = new ArrayList<>(requisitos);
 	}
 	
-	public List<String> getRequisitos() {
-		return Collections.unmodifiableList(this.requisitosAssociados);
-	}
-	
-	public String funcionalidade1() {
+	public String funcao01() {
 		return "string";
 	}
 	
-	public Object funcionalidade2() {
+	public Object funcao02() {
 		return new Object();
 	}
 	
-	public void funcionalidade3() {
+	public void funcao03() {
 		return;
 	}
 }

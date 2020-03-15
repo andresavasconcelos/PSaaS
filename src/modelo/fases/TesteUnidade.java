@@ -27,7 +27,7 @@ public class TesteUnidade {
 		try {
 			printAndWait("\n\nIniciando testes da classe " + c1, 500);
 			
-//			// fazendo casos de teste para a classe 1
+			// fazendo casos de teste para a classe 1
 			for(Method metodo : metodosClasse1) {
 				rodaCasosTeste(metodo, c1Instancia, 3);
 			}
@@ -42,7 +42,7 @@ public class TesteUnidade {
 			e.printStackTrace();
 		}
 		
-		System.out.println("\nFim dos testes de unidade.\n");
+		System.out.println("Fim dos testes de unidade.\n\n\n---\n\n");
 	}
 	
 	private static void rodaCasosTeste(Method metodo, Object instancia, int qtdCasos) throws IllegalAccessException, IllegalArgumentException, InvocationTargetException {

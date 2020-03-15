@@ -13,23 +13,23 @@ public class FaseImplementacao {
 		printAndWait("Esperando aceite da area de negocios...\n", 500);
 
 		if (aprovacaoSoftware(requisitos, requisitos))
-			System.out.println("Requisitos compatíveis com a demanda. Software aceito pela área de negócios.");
+			System.out.println("Requisitos compativeis com a demanda. Software aceito pela area de negocios.");
 
-		printAndWait("Iniciando esteira de produção...\n", 500);
+		printAndWait("Iniciando esteira de producao...\n", 500);
 
-		printAndWait("Criando versão executável do software...\n", 1000);
+		printAndWait("Criando versao executavel do software...\n", 1000);
 
-		printAndWait("Aguardando criação de espaço na nuvem...\n", 1000);
+		printAndWait("Aguardando criacao de espaco na nuvem...\n", 1000);
 		
-		printAndWait("Passando software do ambiente de desenvolvimento para o ambiente de produção...\n", 1000);
+		printAndWait("Passando software do ambiente de desenvolvimento para o ambiente de producao...\n", 1000);
 
-		printAndWait("Subindo software para produção...", 500);
+		printAndWait("Subindo software para producao...", 500);
 
 		printAndWait("Configurando...", 500);
 
 		printAndWait("Inicializando software...", 500);
 
-		System.out.println("Fim da fase de implementação.\n\n\n------------------------------------------------\n\n");
+		System.out.println("Fim da fase de implementacao.\n\n\n------------------------------------------------\n\n");
 
 	}
 

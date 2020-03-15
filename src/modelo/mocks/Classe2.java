@@ -11,19 +11,15 @@ public class Classe2 {
 		this.requisitosAssociados = new ArrayList<>(requisitos);
 	}
 	
-	public List<String> getRequisitos() {
-		return Collections.unmodifiableList(this.requisitosAssociados);
-	}
-	
-	public int funcionalidade1() {
+	public int funcao01() {
 		return 10;
 	}
 	
-	public boolean funcionalidade2() {
+	public boolean funcao02() {
 		return true;
 	}
 	
-	public char funcionalidade3() {
+	public char funcao03() {
 		return 'a';
 	}
 }
