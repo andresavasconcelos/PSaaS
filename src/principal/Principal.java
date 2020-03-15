@@ -5,6 +5,7 @@ import java.util.ArrayList;
 import modelo.fases.FaseConstrucao;
 import modelo.fases.FaseProjeto;
 import modelo.fases.FaseRequisitos;
+import modelo.fases.FaseImplementacao;
 
 public class Principal {
 
@@ -25,9 +26,8 @@ public class Principal {
 		
 		
 		// fase de implementacao
+		FaseImplementacao.printFase(requisitos);
 	}
-	
-	
 	
 	public static void printAndWait(String msg, int millis) {
 		System.out.println(msg);
@@ -35,18 +35,5 @@ public class Principal {
 		try {
 			Thread.sleep(millis);
 		} catch (InterruptedException e) {}
-	}
-	
-	
+	}	
 }
-
-
-
-
-
-
-
-
-
-
-
