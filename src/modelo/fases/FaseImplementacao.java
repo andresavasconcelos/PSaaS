@@ -8,11 +8,11 @@ public class FaseImplementacao {
   
 		printAndWait("Checando testes...", 500);
     
-		printAndWait("Esperando aceite da área de negócios...\n", 500);
+		printAndWait("Esperando aceite da area de negocios...\n", 500);
 		
-		printAndWait("Aguardando criação de espaço na nuvem...\n", 1000);
+		printAndWait("Aguardando criacao de espaco na nuvem...\n", 1000);
 		
-		printAndWait("Subindo software para produção...", 500);
+		printAndWait("Subindo software para produco...", 500);
 				
 		System.out.println("Fim da fase de implementação.\n\n\n------------------------------------------------\n\n");
 		
